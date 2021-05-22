@@ -9,17 +9,15 @@ public class TestPhone {
         iPhone phone1 = new iPhone("iPhone", "11", "black", "plastic", "73478733839");
 
 
-
-      phone.addContact(new Contact("Andrei","0773478433"));
-        phone.addContact(new Contact("Alina","0773475467"));
+        phone.addContact(new Contact("Andrei", "0773478433"));
+        phone.addContact(new Contact("Alina", "0773475467"));
         phone.listContacts();
 
-        // send a message to the first contact from the previous listed
-        // max number of characters - 100
+
         phone.sendMessage("Andrei", "Buna!");
         phone.listMessages("0773478433");
 
-        // send a message to the second contact from the previous listed
+
         phone.call("0773475467");
         phone.viewHistory();
 
