@@ -40,8 +40,7 @@ public class SalesRepresentative {
          * sales representative numbers using a Comparator that is reverse of
          * SortSalesRepresentative()
          */
-      //  Comparator comparator = Collections.reverseOrder(new SortSalesRepresentative());
-      //  Collections.sort(lista, comparator);
+
 
         /**
          * Scrolling to the list after the sorting is done and
@@ -49,9 +48,6 @@ public class SalesRepresentative {
          */
 
 
-//        System.out.println("Sorted by amount of revenue generated via sales: ");
-//        for (Person person : lista)
-//           System.out.println( person);
         System.out.println("Sorted ---------------------");
         final List<Person> people = sortDescending(lista);
         for (Person lista1: people) {
@@ -59,6 +55,10 @@ public class SalesRepresentative {
         }
 
     }
+
+    /**
+     * Sorting descending order by total revenue using bubblesort
+      */
     public static List<Person> sortDescending(List<Person> lista){
         Person person;
         for (int i = 0; i < lista.size(); i++) {
