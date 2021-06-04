@@ -1,6 +1,7 @@
 package hw5_functions;
 
 import java.util.Comparator;
+import java.util.List;
 
 public class SortSalesRepresentative implements Comparator<Person> {
 
