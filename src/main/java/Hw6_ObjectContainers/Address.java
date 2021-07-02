@@ -17,12 +17,12 @@ public class Address {
         return country;
     }
 
-    public Address(String street, String town, String country){
+    public Address(String street, String town, String country) {
         this.street = street;
         this.town = town;
         this.country = country;
-        
-        
+
+
     }
 
     @Override
